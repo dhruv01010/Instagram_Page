@@ -1,0 +1,275 @@
+.body{
+    margin: 0;
+    background-color: black;
+    font-family: "Exo 2", sans-serif;
+    color: white;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    padding: 0.2rem;
+}
+
+.left-sidebar{
+    background-color: rgb(0, 0, 0);
+    width: 16%;
+    position: fixed;
+}
+
+.mid{
+    width: 100%;
+    /* background-color: rgb(173, 27, 27); */
+    margin: 0.2rem 0.2rem 0 17rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-sidebar{
+    width: 40%;
+    /* background-color: rgb(114, 189, 15); */
+}
+
+.instagram{
+    font-family: "Dancing Script", cursive;
+    color: white;
+    padding-bottom: 1.2rem;
+    margin-left: 2rem;
+}
+
+.nav-two{
+    margin: 2rem 0 2rem 0.6rem;
+    font-size: 1.20rem;
+}
+
+.home{
+    font-weight: 700;
+}
+
+.nav-two a{
+    text-decoration: none;
+    color: white;
+    padding-left: 0.9rem;
+}
+
+.profile img{
+    height: 1.4rem;
+    width: 1.4rem;
+    border-radius: 50%;
+}
+
+.three{
+    font-size: 1.25rem;
+    padding-top: 1.65rem;
+    padding-left: 0.9rem;
+}
+
+.three i{
+    height: 1rem;
+    width: 1rem;
+}
+
+.three a{
+    text-decoration: none;
+    color: white;
+    padding-left: 0.9rem;
+}
+
+.footer1{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line1{
+    width: 30%;
+    height: 95%;
+    border-left: 1px solid white;
+    opacity: 0.15;
+}
+
+.mid .mid-upper-bar{
+    height: 17%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    position: sticky;
+}
+
+.mid-upper-bar img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border: 3px outset rgb(205, 8, 195);
+    margin-left: 1rem;
+}
+
+.mid-upper-bar span{
+    margin-left: 1.2rem;
+}
+
+.footer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line2{
+    width: 100%;
+    border-top: 1px solid rgb(33, 33, 33);
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.mid-main{
+    display: inline;
+    margin: 2rem 0 0 9rem;
+}
+
+.post{
+    /* background-color: rgb(67, 67, 67); */
+    width: 70%;
+}
+
+.name img{
+    height: 2.2rem;
+    width: 2.2rem;
+    margin: 0.5rem 0 0 0.5rem;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+}
+
+.p{
+    margin: -0.4rem 0 0 1rem;
+}
+
+.p .span1{
+    font-weight: 600;
+}
+
+.span1 .s1-in{
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.p .span2{
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.name i{
+    display: flex;
+    align-items: center;
+    margin-left: 14rem;
+}
+
+.post .pic{
+    margin-bottom: 2rem;
+    /* border: 1px solid black; */
+}
+
+.pic .img-border{
+    border: 1px solid rgb(30, 30, 30);
+    height: 400px;
+    width: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom i{
+    margin: -1rem 0 3rem 1rem;
+    font-size: 1.3rem;
+}
+
+.bottom .bookmark{
+    margin-left: 19.1rem;
+}
+
+.pic .img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Right Sidebar */
+
+.myself{
+    display: flex;
+}
+
+.myself img{
+    border-radius: 50%;
+    height: 3.2rem;
+    width: 3.2rem;
+    margin: 2rem 1rem 0 2rem;
+}
+
+.rp{
+    margin-top: 1.35rem;
+}
+
+.rp .span1{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.rp .span2{
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.switch{
+    margin: 2.7rem 0 0 5.8rem;
+}
+
+.switch a{
+    text-decoration: none;
+    color: rgb(82, 82, 255);
+}
+
+.suggest{
+    margin: 1rem 0 0 2.2rem;
+}
+
+.suggest .s-foryou{
+    opacity: 0.8;
+    font-weight: 300;
+}
+
+.suggest .see{
+    margin-left: 4rem;
+    opacity: 1;
+    color: white;
+    font-weight: 600;
+}
+
+.f{
+    display: flex;
+    margin: 0 0 -1.6rem 0;
+}  
+
+.f img{
+    height: 3.2rem;
+    width: 3.2rem;
+    margin: 2rem 1rem 0 2rem;
+    border-radius: 50%;
+}
+
+.follow{
+    margin: 2.7rem 0 0 2.8rem;
+}
+
+.follow a{
+    text-decoration: none;
+    color: rgb(82, 82, 255);
+}
